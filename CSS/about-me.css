@@ -1,0 +1,60 @@
+/* Style main image */
+img {
+    width:300px;
+    height:375px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+/* Set margin to main body from header */
+#main-body {
+    margin: 150px 100px 50px 350px;
+    font-family: "Palatino";
+}
+
+#main-body #title {
+    margin-bottom: 30px;
+}
+
+#main-body #title .line {
+    border-top: 1px solid grey;
+}
+
+/* Style About Us line */
+#title h3 {
+    padding: 10px 15px 10px 45px;
+    margin-top: -25px;
+    font-family: "Palatino";
+    font-style: italic;
+    font-size: 27px;
+}
+
+#picture p {
+    margin-left: -25px;
+}
+
+/* Style text below picture */
+.below {
+    margin-top: 25px;
+}
+
+.below p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#picture p:nth-child(4) {
+    padding-top: 27px;
+}
+
+.below, #picture {
+    font-size: 16px;
+    line-height: 145%;
+}
+
+footer {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    margin: 0px;
+    padding-top: 40px;
+}

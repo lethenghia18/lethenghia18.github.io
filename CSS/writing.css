@@ -1,0 +1,76 @@
+a {
+    text-decoration: none;
+}
+
+.content {
+    margin: auto;
+    padding: 200px;
+    padding-top: 125px;
+    padding-bottom: 100px;
+}
+
+.content h4 {
+    width: 20%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    font-family: "Palentino";
+    font-size: 20px;
+    font-style: italic;
+}
+
+.content h4:nth-of-type(2) {
+    width: 15.5%;
+}
+
+/* Style the newest pieces on top */
+.newest {
+    display: inline-flex;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.title {
+    padding-left: 25px;
+}
+
+.title p {
+    font-family: "Palentino";
+    font-size: 16px;
+}
+
+.newest .title {
+    padding: 50px;
+    padding-left: 0px;
+    max-width: 600px;
+}
+
+#newest-photo {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.medium-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+/* Style the favorite pieces */
+.first, .second, .third {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.favorite-photo {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    padding-top: 40px;
+    margin-bottom: -50px; /* Anchor footer at the bottom */
+}

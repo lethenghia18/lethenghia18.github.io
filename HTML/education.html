@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> Max Le | Education </title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> 
+
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css"/>
+    <link rel="stylesheet" type="text/css" href="../CSS/education.css"/>
+    <script type="text/javascript" src="../JavaScript/education.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+</head>
+<body>
+    <header class="container">
+        <div class="row">
+            <h1 class="col-md-1"><a href="index.html"> Max </a></h1>
+            <nav class="col-md-10"> 
+                <li><a href="about-me.html"><span class="glyphicon glyphicon-user"></span>About Me</a></li>
+                <li><a href="projects.html"><span class="glyphicon glyphicon-briefcase"></span>Projects</a></li>
+                <li><a href="education.html"><span class="glyphicon glyphicon-education"></span>Education</a></li>
+                <li><a href="writing.html"><span class="glyphicon glyphicon-pencil"></span>Writing</a></li>
+            </nav>
+        </div>
+    </header>
+
+    <section class="education">
+
+        <!--CMU-->
+        <div class="cmu">
+            <div class="container">
+
+                <!--Image and Title-->
+                <div class="title">
+                    <h4 class="period"> August 2015 - May 2019 </h4>
+                    <img src="../img/cmu.png"/>
+                    <p class="schoolname"> Carnegie Mellon University </p>
+                    <p> B.S. Computer Science </p>
+                    <p style="font-size: 12px; font-style: italic;"> Dean's List - Fall 2015 </p>
+                </div>
+
+                <!--Course panel--> 
+                <div class="courses">
+                    <div class="labels row">
+                        <li> <em>Courses</em> </li>
+                        <li> <em>Description</em> </li>
+                    </div>
+                    <ul class="tab col-md-1">
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="openCourse(event, '15-213')" id="defaultOpen">15-213</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="openCourse(event, '15-251')">15-251</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="openCourse(event, '15-150')">15-150</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="openCourse(event, '15-122')">15-122</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="openCourse(event, '15-112')">15-112</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="openCourse(event, '36-217')">36-217</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="openCourse(event, '21-127')">21-127</a></li>
+                    </ul>
+                    <div id="15-213" class="tabcontent">
+                        <div class="row intro-line">
+                            <h3 class="col-md-10"> 15-213: Introduction to Computer Systems </h3>
+                            <p class="col-md-2"> Fall 2016 </p>
+                        </div>
+                        <p> An introductory course for computer systems from the programmer's point of view. This course covers bit representations of data, machine-level code, memory hierarchy, cache, signals and processes, memory allocation, network programming, and concurrency. </p>
+                        <p> This is one of my favorite courses because it helps me understand the underlying systems of a computer from a person who knows nothing about how computer works. In this course I learned how to read assembly and made a cache simulator, a shell, an implementation of malloc, and a multi-threaded and cached proxy.</p>
+                        <p><em>Language Used: C</em></p>
+                    </div>
+
+                    <div id="15-251" class="tabcontent">
+                        <div class="row intro-line">
+                            <h3 class="col-md-10">15-251: Great Theoretical Ideas in Computer Science</h3>
+                            <p class="col-md-2"> Spring 2016 </p> 
+                        </div>
+                        <p> This course is about how to use theoretical ideas to formulate and solve problems in computer science. It integrates mathematical material with general problem solving techniques and computer science applications. Topics include algorithms, complexity theory, game theory, probability theory, graph theory, algebra, cryptography, and combinatorics. </p>
+                        <p> This is a really hard course, but I learned a lot about theorical computer science. </p>
+                    </div>
+
+                    <div id="15-150" class="tabcontent">
+                        <div class="row intro-line">
+                            <h3 class="col-md-10">15-150: Functional Programming</h3>
+                            <p class="col-md-2"> Fall 2016 </p>
+                        </div>
+                        <p> An introduction to programming based on a functional model of computation. This course focuses on the datatype correctness, recursive functions, proof by structural induction, complexity of recurrences, structuring large programs into separate modules, and the integration of imperative programming. </p>
+                        <p> I really enjoyed this course and functional programming is really fun. Among my favorite topics are high-order function, continuation-passing style, minimax and alpha-beta pruning. </p>
+                        <p><em>Language Used: SML</em></p>
+                    </div>
+
+                    <div id="15-122" class="tabcontent">
+                        <div class="row intro-line">
+                            <h3 class="col-md-10">15-122: Imperative Programming</h3>
+                            <p class="col-md-2"> Spring 2016 </p>
+                        </div>
+                        <p> The course teaches imperative programming and methods for ensuring the correctness of programs. Topics include theory and applications of important algorithms and data structures such as BFS, DFS, binary tree, AVL tree, heap, stack, queue. </p>
+                        <p> <em>Language Used: C0, C</em> </p>
+                    </div>
+
+                    <div id="15-112" class="tabcontent">
+                        <div class="row intro-line">
+                            <h3 class="col-md-10">15-112: Introduction to Fundamentals of Programming</h3>
+                            <p class="col-md-2"> Fall 2015 </p>
+                        </div>
+                        <p> A technical introduction to the fundamentals of programming with an emphasis on producing clear, robust, and reasonably efficient code using top-down design, informal analysis, and effective testing and debugging. Starting from first principles, we will cover a large subset of the Python programming language, including its standard libraries and programming paradigms. </p>
+                        <p> My other favorite course at CMU. It is so good that I applied to be Teaching Assistant for it. </p>
+                        <p><em>Language Used: Python</em></p>
+                    </div>
+
+                    <div id="36-217" class="tabcontent">
+                        <div class="row intro-line">
+                            <h3 class="col-md-10">36-217: Probability Theory and Random Processes</h3>
+                            <p class="col-md-2">Fall 2016</p>
+                        </div>
+                        <p> This course provides an introduction to probability theory. It is designed for students in electrical and computer engineering. Topics include elementary probability theory, conditional probability and independence, random variables, distribution functions, joint and conditional distributions, limit theorems, and an introduction to random processes. Some elementary ideas in spectral analysis and information theory will be given. </p>
+                    </div>
+
+                    <div id="21-127" class="tabcontent">
+                        <div class="row intro-line">
+                            <h3 class="col-md-10">21-127: Concepts of Mathematics</h3>
+                            <p class="col-md-2">Fall 2015</p>
+                        </div>
+                        <p>This course introduces the basic concepts, ideas and tools involved in doing mathematics. As such, its main focus is on presenting informal logic, and the methods of mathematical proof. These subjects are closely related to the application of mathematics in many areas, particularly computer science. Topics discussed include a basic introduction to elementary number theory, induction, the algebra of sets, relations, equivalence relations, congruences, partitions, and functions, including injections, surjections, and bijections. A basic introduction to the real numbers, rational and irrational numbers. </p>
+                    </div>
+                    <script> 
+                        // default tab
+                        document.getElementById("defaultOpen").click();
+                    </script>
+
+                </div>
+
+                <!--Experience and Activities-->
+                <div class="exp-and-activity">
+                    <button class="accordion"><strong>Activities</strong></button>
+                    <div class="panel">
+                        <div class="experience-1">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h4> 15-112 Fundamentals of Programming and Computer Science </h4>
+                                    <div class="details">
+                                        <li id="position">Teaching Assistant | </li>
+                                        <li id="place"> January - December 2016 </li>
+                                    </div>
+                                    <div class="description">
+                                        <ul>
+                                            <li>Teach Recitations for a section with around 30 students</li>
+                                            <li>Hold Office Hours, weekly Review Sessions, and private tutoring</li>
+                                            <li>Mentor end-of-term projects for 10 students</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4" class="picture">
+                                    <img src="../img/112-staff.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-2">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h4> Pittsburgh 10K Great Race </h4>
+                                    <div class="details">
+                                        <li id="place"> October 2016 </li>
+                                    </div>
+                                    <p> I ran my first 10K race! It was really really fun running with A LOT of people, and particularly alongside my running partner, Rudina! </p>
+                                </div>
+                                <div class="col-md-4" class="picture">
+                                    <img src="../img/great-race.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-2">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h4> CMU Mixed Martial Arts Club </h4>
+                                    <div class="details">
+                                        <li id="position">Member | </li>
+                                        <li id="place"> August - December 2015 </li>
+                                    </div>
+                                    <p>I joined MMA my first semester at CMU, and really really enjoyed my time there. We learned basic punches, combos, and did light sparring. Due to my heavy commitment to 112, I was unable to do it for the next 2 semesters. However, I will it again Spring 2017.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-3">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h4> Intramural Indoor and Outdoor Soccer </h4>
+                                    <div class="details">
+                                        <li id="position"> Participant | </li>
+                                        <li id="place"> November and March </li>
+                                    </div>
+                                    <p> Soccer is super fun! I usually play center mid, defensive mid, or in defense. </p>
+                                </div>
+                                <div class="col-md-4" class="picture">
+                                    <img src="../img/cmu-soccer.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="accordion"><strong>Experience</strong></button>
+                    <div class="panel">
+                        <p>In high school, I was introduced to computer science, and I soon became fascinated by programming problems, more so that math. Therefore, I want to study Computer Science more in depth, and enrolled in Carnegie Mellon University as a Computer Science Major. My first semester, I took an introductory CS course, 15-112, and it is one of the best courses I have ever taken. Not only it introduced me to the basics of CS, but also important skills in programming such as top-down design, MVC, and testing. From there I continue my journey through the world of CS, taking theory as well as system courses. I also became Teaching Assistant to 15-112, and it again taught me a whole lot. Not only it gives me an perspective on how the course works, but it also reinforces my understanding of the materials and finds nuances that I did not discover as a student. I am currently looking for a research opportunity. Although I am not sure what path I want to go in CS, I am optimistic that I'll find it at CMU.</p>
+                        <p> Outside of the classroom, I enjoy runnning, working out, and am a member of CMU MMA. I also participated in outdoor and indoor soccer intramurals </p>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+        <!--Exeter-->
+        <div class="exeter">
+            <div class="container">
+                <!--Image and Title-->
+                <div class="title">
+                    <h4 class="period"> September 2011 - June 2015 </h4>
+                    <img src="../img/pea.png"/>
+                    <p class="schoolname"> Phillips Exeter Academy </p>
+                </div>
+                <div class="exp-and-activity">
+                    <button class="accordion">Activities</button>
+                    <div class="panel">
+                        <div class="experience-1">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h4> Peer Tutoring </h4>
+                                    <div class="details">
+                                        <li id="position"> Head Peer Tutor | </li>
+                                        <li id="place"> September 2013 - February 2015 </li>
+                                    </div>
+                                    <div class="description">
+                                        <ul>
+                                            <li>Tutored fellow students in Math, Physics, Chemistry, and Chinese</li>
+                                            <li>Joined in 2011, became head tutor in 2013</li>
+                                            <li>Managed tasks such as making schedule and sending emails</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4" class="picture">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-1">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h4> The Exonian Business Board </h4>
+                                    <div class="details">
+                                        <li id="position"> Director of Communications | </li>
+                                        <li id="place"> September 2012 - February 2015 </li>
+                                    </div>
+                                    <div class="description">
+                                        <ul> 
+                                            <li> Oversaw day-to-day tasks of the Exonian Business Board and make sure the papers are delivered to the students weekly </li>
+                                            <li> Co-wrote the 1st and 2nd edition of <a href="../others/WorkflowEdition2.pdf" target="_blank"> Exonian Business Board Workflow </a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4" class="picture">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-1">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h4> Physics Club </h4>
+                                    <div class="details">
+                                        <li id="position">Co-Head | </li>
+                                        <li id="place"> September 2013 - February 2015 </li>
+                                    </div>
+                                    <div class="description">
+                                        <ul>
+                                            <li>Hold weekly meetings with various activities such as experiments, lectures, discussions, and movies</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4" class="picture">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-3">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h4> Dormitory Proctor for Soule Hall </h4>
+                                    <div class="details">
+                                        <li id="position"> Proctor | </li>
+                                        <li id="place"> September 2014 - February 2015 </li>
+                                    </div>
+                                    <div class="description">
+                                        <ul>
+                                            <li>One of the 5 "proctors" for a dorm of 40 boys </li>
+                                            <li>Checked members of the dorm in once a week, looked out for everyone in the dorm, and acted as the liaison between students and faculty members</li>
+                                            <li>Organized bonding activities, such as dorm BBQ, movie nights, and dorm soccer with other dorms on campus, which we became the champion</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4" class="picture">
+                                    <img src="../img/dorm-soccer.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="accordion">Experience</button>
+                    <div class="panel">
+                        <p>When I was 15, I attended Phillips Exeter Academy in Exeter, New Hampshire for high school. This was a remarkable journey for me, leaving me with a lot of important lessons, lasting memories, and compassionate friends along the way. Exeter taught me so much, from being more confident in my language ability to critically think about and question the world. At this place I also found my interest in writing, particularly writing about my own memories or about things that makes me think deeper and deeper into the wonders around me. This is possible because of the caring and passionate teachers who encourage me to think more critically, to speak up my mind, and to discover the unknowns in my writing. More importantly, Exeter gives me intelligent, well-rounded, and above all, compassionate friends, some became my best friends. I am forever grateful for all of what Exeter has given me.</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <!--Pre-Exeter-->
+        <div class="pre-exeter">
+            <div class="container">
+                <!--Image and Title-->
+                <div class="title">
+                    <h4 class="period"> September 2007 - June 2011 </h4>
+                    <img src="../img/gvo.jpg"/>
+                    <p class="schoolname"> Giảng Võ Secondary School </p>
+                </div>
+                <div class="exp-and-activity">
+
+                    <button class="accordion">Experience</button>
+                    <div class="panel">
+                        <p>Giảng Võ Secondary School is where I had some of the most unforgettable memories of my childhood. I was in a classroom with 60 other teenagers, and we grew up together for 4 years. We studied together and we played soccer together everyday. This is where I nurtured my interests in solving math problems and soccer. My close friends from middle school and I still get together whenever we can. Someone even became a very special person in my life. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--script to toggle between activity and experience accordians-->
+        <script>
+        /* Toggle between adding and removing the "active" and "show" classes when the user clicks on one of the "Section" buttons. The "active" class is used to add a background color to the current button when its belonging panel is open. The "show" class is used to open the specific accordion panel */
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function(){
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+        </script>
+
+    </section>
+    <footer class="container col-md-12">
+        <p>Designed on January 2017</p>
+        <p>&copy; 2017 Max Le</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+.cmu, .exeter, .pre-exeter {
+    padding-top: 50px;
+    padding-bottom: 100px; 
+}
+
+.cmu {
+   padding-top: 120px; 
+}
+
+.period {
+    border-bottom: 1px solid grey; 
+    /*margin: 0px 260px 40px 340px;*/
+    margin: auto;
+    margin-bottom: 40px;
+    width: 40%;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: "Palentino"; 
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.exeter img {
+    width: 264px;
+    height: 200px;
+}
+
+.title {
+    text-align: center;
+}
+
+.schoolname {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.courses {
+    margin: 20px -70px 50px 120px;
+}
+
+.labels {
+    display: flex;
+}
+
+.labels li {
+    padding: 20px 50px 15px 20px;
+}
+
+footer {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    margin: 0px;
+    padding-top: 40px;
+}
+
+/******************************** STYLE COURSE TAB **************************/
+
+/* Style title and date taken the course line */
+.intro-line {
+    display: flex;
+}
+
+.intro-line p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(0, 102, 204);
+    font-weight: bold;
+}
+
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 22.2px; /* adjust so the hovering fills the entire box */
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* keep active tab alive when clicked elsewhere */
+ul.tab li .active {
+    background-color: rgb(0, 102, 204);
+    color: white;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+ul.tab li .active a:hover {
+    background-color: rgb(0, 102, 204);
+    color: white;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: rgb(0, 102, 204);
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    padding-left: 18px;
+    margin-left: 120px;
+    border: 1px solid #ccc;
+    width: 71%;
+    height: 339px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/******************************** STYLE ACCORDIAN ****************************/
+
+.exp-and-activity {
+    margin: auto;
+    padding-top: 30px;
+    width: 78%;
+}
+
+.exp-and-activity li {
+    list-style: disc;
+}
+
+.exp-and-activity img {
+    width: 200px;
+    height: 150px;
+    border-radius: 0px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 15px 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+.exeter button.accordion, .exeter button.accordion.active {
+    background-color: rgb(153, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.pre-exeter button.accordion, .pre-exeter button.accordion.active {
+    background-color: rgb(0, 102, 204);
+    color: white;
+    font-weight: bold;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0px 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    margin-bottom: -2px;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    /*display: block;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 18px;
+    opacity: 1;
+    max-height: 1000px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+.exeter {
+    background-color: rgb(239, 239, 239);
+}
+
+
